@@ -109,13 +109,13 @@ namespace ConsoleApp1
                         outputFile.WriteLine(line);
                 }
             }
-
+           
             // Helper Functions - Currently unused
             private static byte[] StringEncode(string text)
             {
                 var encoding = new UTF8Encoding();
                 return encoding.GetBytes(text);
-            }
+        }
 
             private static string HashEncode(byte[] hash)
             {
