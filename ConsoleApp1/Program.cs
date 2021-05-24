@@ -25,7 +25,6 @@ namespace ConsoleApp1
         {
 
 
-            var auth = new BitMart.Auth("f9e6f975ad215b2868cba9e1827566076ff2a9c6", "APIKEY", "e99d1770c39feb11f4d499b2a354b12fec11f574eba5a74b2ed516ea02d2f303");
             string response = BitMart.SpotTrading.PrivateAPI.placeLimitOrderSell(auth, "SAFEMOON_USDT", "714286", "0.000007");
 
             OrderResponse order = JsonSerializer.Deserialize<OrderResponse>(response);
