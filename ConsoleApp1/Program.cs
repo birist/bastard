@@ -19,7 +19,6 @@ namespace ConsoleApp1
         static bool waitingOnBuy = false;
         static bool waitingOnSell = false;
         static string stock;
-        static BitMart.Auth auth = new BitMart.Auth("3b3c027dabd3bf62e28a28bbe3b9e942b6234df0", "APIKEY", "c1c96d2596059a4641389d95664c5ea9e9b4cea4b72279a7c3231836f3cb1160");
         static long activeOrder;
 
         static void Main(string[] args)
