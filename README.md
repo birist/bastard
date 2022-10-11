@@ -1,4 +1,4 @@
-# bastard
+# rr-autotrade
 
 Script for trading Cryptocurrencies.
 
